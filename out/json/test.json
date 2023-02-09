@@ -1,0 +1,63 @@
+{
+  "name": "test",
+  "description": "This is a test template",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  },
+  "element_list": {
+    "metadata": {
+      "author": "author",
+      "date": "date",
+      "title": "title",
+      "fontsize": 11,
+      "doc_class": "article",
+      "maketitle": true
+    },
+    "list": [
+      {
+        "value": {
+          "value": "A Chapter",
+          "type_": "T_Chapter",
+          "level": null,
+          "header_level": null,
+          "text_type": null,
+          "list_type": null,
+          "items": null,
+          "elements": null
+        },
+        "type_": "T_Chapter",
+        "level": "Document"
+      },
+      {
+        "value": {
+          "value": "A Header",
+          "type_": "T_Header",
+          "level": null,
+          "header_level": 1,
+          "text_type": null,
+          "list_type": null,
+          "items": null,
+          "elements": null
+        },
+        "type_": "T_Header",
+        "level": "Document"
+      },
+      {
+        "value": {
+          "value": "A Sub Header",
+          "type_": "T_Header",
+          "level": null,
+          "header_level": 2,
+          "text_type": null,
+          "list_type": null,
+          "items": null,
+          "elements": null
+        },
+        "type_": "T_Header",
+        "level": "Document"
+      }
+    ]
+  }
+}
