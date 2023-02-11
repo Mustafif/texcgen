@@ -9,7 +9,7 @@ use tokio::io::Result;
 #[derive(StructOpt)]
 #[structopt(about = "A template generator for the TexCreate project")]
 enum CLI {
-    #[structopt(about = "Initialize Output Structure")]
+    #[structopt(about = "Initialize Output Directory Structure")]
     Init,
     #[structopt(about = "Generate template")]
     Gen {

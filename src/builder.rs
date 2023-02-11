@@ -63,15 +63,17 @@ impl Builder {
     }
     // builds depending on the build level
     pub async fn build(&self, template: &Template) -> Result<()> {
-        let paths = self.paths(&name());
+        let paths = self.paths(&template.name);
         match self.build_level {
             1 => {
                 // only create json
                 let json = template.to_json_string();
+                println!("Generating {}", &paths[0].display());
                 self.build_file(&paths[0], json).await?;
             }
             2 => {
                 let tex = template.to_latex_string();
+                println!("Generating {}", &paths[1].display());
                 self.build_file(&paths[1], tex).await?;
             }
             3 => {
@@ -79,8 +81,14 @@ impl Builder {
                 let tex = template.to_latex_string();
 
                 try_join!(
-                    self.build_file(&paths[0], json),
-                    self.build_file(&paths[1], tex)
+                    {
+                        println!("Generating {}", &paths[0].display());
+                        self.build_file(&paths[0], json)
+                    },
+                    {
+                        println!("Generating {}", &paths[1].display());
+                        self.build_file(&paths[1], tex)
+                    }
                 )
                 .unwrap();
             }

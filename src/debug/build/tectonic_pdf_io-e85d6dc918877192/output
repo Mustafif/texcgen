@@ -1,0 +1,840 @@
+cargo:rerun-if-env-changed=TECTONIC_DEP_BACKEND
+cargo:rerun-if-env-changed=TECTONIC_PKGCONFIG_FORCE_SEMI_STATIC
+cargo:rerun-if-env-changed=LIBPNG_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=SYSROOT
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-changed=pdf_io/dpx-agl.c
+cargo:rerun-if-changed=pdf_io/dpx-bmpimage.c
+cargo:rerun-if-changed=pdf_io/dpx-cff.c
+cargo:rerun-if-changed=pdf_io/dpx-cff_dict.c
+cargo:rerun-if-changed=pdf_io/dpx-cid.c
+cargo:rerun-if-changed=pdf_io/dpx-cidtype0.c
+cargo:rerun-if-changed=pdf_io/dpx-cidtype2.c
+cargo:rerun-if-changed=pdf_io/dpx-cmap.c
+cargo:rerun-if-changed=pdf_io/dpx-cmap_read.c
+cargo:rerun-if-changed=pdf_io/dpx-cmap_write.c
+cargo:rerun-if-changed=pdf_io/dpx-cs_type2.c
+cargo:rerun-if-changed=pdf_io/dpx-dpxconf.c
+cargo:rerun-if-changed=pdf_io/dpx-dpxcrypt.c
+cargo:rerun-if-changed=pdf_io/dpx-dpxfile.c
+cargo:rerun-if-changed=pdf_io/dpx-dpxutil.c
+cargo:rerun-if-changed=pdf_io/dpx-dvi.c
+cargo:rerun-if-changed=pdf_io/dpx-dvipdfmx.c
+cargo:rerun-if-changed=pdf_io/dpx-epdf.c
+cargo:rerun-if-changed=pdf_io/dpx-error.c
+cargo:rerun-if-changed=pdf_io/dpx-fontmap.c
+cargo:rerun-if-changed=pdf_io/dpx-jp2image.c
+cargo:rerun-if-changed=pdf_io/dpx-jpegimage.c
+cargo:rerun-if-changed=pdf_io/dpx-mem.c
+cargo:rerun-if-changed=pdf_io/dpx-mfileio.c
+cargo:rerun-if-changed=pdf_io/dpx-mpost.c
+cargo:rerun-if-changed=pdf_io/dpx-mt19937ar.c
+cargo:rerun-if-changed=pdf_io/dpx-numbers.c
+cargo:rerun-if-changed=pdf_io/dpx-otl_opt.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfcolor.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfdev.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfdoc.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfdraw.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfencoding.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfencrypt.c
+cargo:rerun-if-changed=pdf_io/dpx-pdffont.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfnames.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfobj.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfparse.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfresource.c
+cargo:rerun-if-changed=pdf_io/dpx-pdfximage.c
+cargo:rerun-if-changed=pdf_io/dpx-pkfont.c
+cargo:rerun-if-changed=pdf_io/dpx-pngimage.c
+cargo:rerun-if-changed=pdf_io/dpx-pst.c
+cargo:rerun-if-changed=pdf_io/dpx-pst_obj.c
+cargo:rerun-if-changed=pdf_io/dpx-sfnt.c
+cargo:rerun-if-changed=pdf_io/dpx-spc_color.c
+cargo:rerun-if-changed=pdf_io/dpx-spc_dvipdfmx.c
+cargo:rerun-if-changed=pdf_io/dpx-spc_dvips.c
+cargo:rerun-if-changed=pdf_io/dpx-spc_html.c
+cargo:rerun-if-changed=pdf_io/dpx-spc_misc.c
+cargo:rerun-if-changed=pdf_io/dpx-spc_pdfm.c
+cargo:rerun-if-changed=pdf_io/dpx-spc_tpic.c
+cargo:rerun-if-changed=pdf_io/dpx-spc_util.c
+cargo:rerun-if-changed=pdf_io/dpx-spc_xtx.c
+cargo:rerun-if-changed=pdf_io/dpx-specials.c
+cargo:rerun-if-changed=pdf_io/dpx-subfont.c
+cargo:rerun-if-changed=pdf_io/dpx-t1_char.c
+cargo:rerun-if-changed=pdf_io/dpx-t1_load.c
+cargo:rerun-if-changed=pdf_io/dpx-tfm.c
+cargo:rerun-if-changed=pdf_io/dpx-truetype.c
+cargo:rerun-if-changed=pdf_io/dpx-tt_aux.c
+cargo:rerun-if-changed=pdf_io/dpx-tt_cmap.c
+cargo:rerun-if-changed=pdf_io/dpx-tt_glyf.c
+cargo:rerun-if-changed=pdf_io/dpx-tt_gsub.c
+cargo:rerun-if-changed=pdf_io/dpx-tt_post.c
+cargo:rerun-if-changed=pdf_io/dpx-tt_table.c
+cargo:rerun-if-changed=pdf_io/dpx-type0.c
+cargo:rerun-if-changed=pdf_io/dpx-type1.c
+cargo:rerun-if-changed=pdf_io/dpx-type1c.c
+cargo:rerun-if-changed=pdf_io/dpx-unicode.c
+cargo:rerun-if-changed=pdf_io/dpx-vf.c
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+cargo:rerun-if-env-changed=CC_x86_64-unknown-linux-gnu
+CC_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CC_x86_64_unknown_linux_gnu
+CC_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-unknown-linux-gnu
+CFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_unknown_linux_gnu
+CFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,llvm14-builtins-abi,sse,sse2")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-agl.o" "-c" "pdf_io/dpx-agl.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-bmpimage.o" "-c" "pdf_io/dpx-bmpimage.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cff.o" "-c" "pdf_io/dpx-cff.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cff_dict.o" "-c" "pdf_io/dpx-cff_dict.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cid.o" "-c" "pdf_io/dpx-cid.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cidtype0.o" "-c" "pdf_io/dpx-cidtype0.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cidtype2.o" "-c" "pdf_io/dpx-cidtype2.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cmap.o" "-c" "pdf_io/dpx-cmap.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cmap_read.o" "-c" "pdf_io/dpx-cmap_read.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cmap_write.o" "-c" "pdf_io/dpx-cmap_write.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cs_type2.o" "-c" "pdf_io/dpx-cs_type2.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dpxconf.o" "-c" "pdf_io/dpx-dpxconf.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dpxcrypt.o" "-c" "pdf_io/dpx-dpxcrypt.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dpxfile.o" "-c" "pdf_io/dpx-dpxfile.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dpxutil.o" "-c" "pdf_io/dpx-dpxutil.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dvi.o" "-c" "pdf_io/dpx-dvi.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dvipdfmx.o" "-c" "pdf_io/dpx-dvipdfmx.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-epdf.o" "-c" "pdf_io/dpx-epdf.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-error.o" "-c" "pdf_io/dpx-error.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-fontmap.o" "-c" "pdf_io/dpx-fontmap.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-jp2image.o" "-c" "pdf_io/dpx-jp2image.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-jpegimage.o" "-c" "pdf_io/dpx-jpegimage.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-mem.o" "-c" "pdf_io/dpx-mem.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-mfileio.o" "-c" "pdf_io/dpx-mfileio.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-mpost.o" "-c" "pdf_io/dpx-mpost.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-mt19937ar.o" "-c" "pdf_io/dpx-mt19937ar.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-numbers.o" "-c" "pdf_io/dpx-numbers.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-otl_opt.o" "-c" "pdf_io/dpx-otl_opt.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfcolor.o" "-c" "pdf_io/dpx-pdfcolor.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfdev.o" "-c" "pdf_io/dpx-pdfdev.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfdoc.o" "-c" "pdf_io/dpx-pdfdoc.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfdraw.o" "-c" "pdf_io/dpx-pdfdraw.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfencoding.o" "-c" "pdf_io/dpx-pdfencoding.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfencrypt.o" "-c" "pdf_io/dpx-pdfencrypt.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdffont.o" "-c" "pdf_io/dpx-pdffont.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfnames.o" "-c" "pdf_io/dpx-pdfnames.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfobj.o" "-c" "pdf_io/dpx-pdfobj.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfparse.o" "-c" "pdf_io/dpx-pdfparse.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfresource.o" "-c" "pdf_io/dpx-pdfresource.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfximage.o" "-c" "pdf_io/dpx-pdfximage.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pkfont.o" "-c" "pdf_io/dpx-pkfont.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pngimage.o" "-c" "pdf_io/dpx-pngimage.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pst.o" "-c" "pdf_io/dpx-pst.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pst_obj.o" "-c" "pdf_io/dpx-pst_obj.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-sfnt.o" "-c" "pdf_io/dpx-sfnt.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_color.o" "-c" "pdf_io/dpx-spc_color.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_dvipdfmx.o" "-c" "pdf_io/dpx-spc_dvipdfmx.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_dvips.o" "-c" "pdf_io/dpx-spc_dvips.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_html.o" "-c" "pdf_io/dpx-spc_html.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_misc.o" "-c" "pdf_io/dpx-spc_misc.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_pdfm.o" "-c" "pdf_io/dpx-spc_pdfm.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_tpic.o" "-c" "pdf_io/dpx-spc_tpic.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_util.o" "-c" "pdf_io/dpx-spc_util.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_xtx.o" "-c" "pdf_io/dpx-spc_xtx.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-specials.o" "-c" "pdf_io/dpx-specials.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-subfont.o" "-c" "pdf_io/dpx-subfont.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-t1_char.o" "-c" "pdf_io/dpx-t1_char.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-t1_load.o" "-c" "pdf_io/dpx-t1_load.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tfm.o" "-c" "pdf_io/dpx-tfm.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-truetype.o" "-c" "pdf_io/dpx-truetype.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_aux.o" "-c" "pdf_io/dpx-tt_aux.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_cmap.o" "-c" "pdf_io/dpx-tt_cmap.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_glyf.o" "-c" "pdf_io/dpx-tt_glyf.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_gsub.o" "-c" "pdf_io/dpx-tt_gsub.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_post.o" "-c" "pdf_io/dpx-tt_post.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_table.o" "-c" "pdf_io/dpx-tt_table.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-type0.o" "-c" "pdf_io/dpx-type0.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-type1.o" "-c" "pdf_io/dpx-type1.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-type1c.o" "-c" "pdf_io/dpx-type1c.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-unicode.o" "-c" "pdf_io/dpx-unicode.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-4" "-fno-omit-frame-pointer" "-m64" "-I" "pdf_io" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_flate-0.1.6/include" "-I" "/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_bridge_core-0.3.1/support" "-I" "/usr/include/libpng16" "-I" "/usr/include" "-Wall" "-Wextra" "-Wall" "-Wcast-qual" "-Wdate-time" "-Wendif-labels" "-Wextra" "-Wformat=2" "-Winit-self" "-Wlogical-op" "-Wmissing-declarations" "-Wmissing-include-dirs" "-Wmissing-prototypes" "-Wnested-externs" "-Wold-style-definition" "-Wpointer-arith" "-Wredundant-decls" "-Wstrict-prototypes" "-Wsuggest-attribute=format" "-Wswitch-bool" "-Wundef" "-Wwrite-strings" "-Wno-unused-parameter" "-Wno-implicit-fallthrough" "-Wno-sign-compare" "-std=gnu11" "-o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-vf.o" "-c" "pdf_io/dpx-vf.c"
+exit status: 0
+cargo:rerun-if-env-changed=AR_x86_64-unknown-linux-gnu
+AR_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=AR_x86_64_unknown_linux_gnu
+AR_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-unknown-linux-gnu
+ARFLAGS_x86_64-unknown-linux-gnu = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_unknown_linux_gnu
+ARFLAGS_x86_64_unknown_linux_gnu = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/libtectonic_pdf_io.a" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-agl.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-bmpimage.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cff.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cff_dict.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cid.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cidtype0.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cidtype2.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cmap.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cmap_read.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cmap_write.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-cs_type2.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dpxconf.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dpxcrypt.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dpxfile.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dpxutil.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dvi.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-dvipdfmx.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-epdf.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-error.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-fontmap.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-jp2image.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-jpegimage.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-mem.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-mfileio.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-mpost.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-mt19937ar.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-numbers.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-otl_opt.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfcolor.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfdev.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfdoc.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfdraw.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfencoding.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfencrypt.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdffont.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfnames.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfobj.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfparse.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfresource.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pdfximage.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pkfont.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pngimage.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pst.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-pst_obj.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-sfnt.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_color.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_dvipdfmx.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_dvips.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_html.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_misc.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_pdfm.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_tpic.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_util.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-spc_xtx.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-specials.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-subfont.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-t1_char.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-t1_load.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tfm.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-truetype.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_aux.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_cmap.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_glyf.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_gsub.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_post.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-tt_table.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-type0.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-type1.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-type1c.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-unicode.o" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/pdf_io/dpx-vf.o"
+exit status: 0
+running: "ar" "s" "/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out/libtectonic_pdf_io.a"
+exit status: 0
+cargo:rustc-link-lib=static=tectonic_pdf_io
+cargo:rustc-link-search=native=/hdd/texcreate-projs/texcgen/src/debug/build/tectonic_pdf_io-e85d6dc918877192/out
+cargo:rerun-if-env-changed=LIBPNG_NO_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=LIBPNG_STATIC
+cargo:rerun-if-env-changed=LIBPNG_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=SYSROOT
+cargo:rerun-if-env-changed=LIBPNG_STATIC
+cargo:rerun-if-env-changed=LIBPNG_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rustc-link-search=native=/usr/lib/x86_64-linux-gnu
+cargo:rustc-link-lib=png16
+cargo:rustc-link-lib=z
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+cargo:rerun-if-env-changed=PKG_CONFIG
+cargo:rerun-if-env-changed=LIBPNG_STATIC
+cargo:rerun-if-env-changed=LIBPNG_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+cargo:include-path=/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_pdf_io-0.4.0/pdf_io

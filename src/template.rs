@@ -3,9 +3,9 @@ use texcore::template::*;
 use texcore::*;
 
 // Name of the template
-static NAME: &str = "test";
+static NAME: &str = "";
 // Description of the template
-static DESC: &str = r#"This is a test template"#;
+static DESC: &str = r#""#;
 
 // Used to distribute the name
 pub fn name() -> String {
@@ -14,12 +14,10 @@ pub fn name() -> String {
 
 // where all the template elements will be created
 fn elements() -> Vec<Element<Any>> {
-    let chapter = Chapter::new("A Chapter");
-    let header = Header::new("A Header", 1);
-    let subheader = Header::new("A Sub Header", 2);
+
     // This macro converts all TexCore types that implement
     // the `Tex` trait to Element<Any>
-    Elements![chapter, header, subheader]
+    Elements![]
 }
 
 // where you may declare the version of the template

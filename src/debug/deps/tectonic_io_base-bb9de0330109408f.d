@@ -1,0 +1,11 @@
+/hdd/texcreate-projs/texcgen/src/debug/deps/tectonic_io_base-bb9de0330109408f.rmeta: /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/lib.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/app_dirs.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/digest.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/filesystem.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/flate2.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/stack.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/stdstreams.rs
+
+/hdd/texcreate-projs/texcgen/src/debug/deps/tectonic_io_base-bb9de0330109408f.d: /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/lib.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/app_dirs.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/digest.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/filesystem.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/flate2.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/stack.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/stdstreams.rs
+
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/lib.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/app_dirs.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/digest.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/filesystem.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/flate2.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/stack.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/tectonic_io_base-0.4.1/src/stdstreams.rs:

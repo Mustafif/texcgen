@@ -1,0 +1,18 @@
+/hdd/texcreate-projs/texcgen/src/debug/deps/terminfo-1cff08e297d3bb9f.rmeta: /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/lib.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/error.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/mod.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/util.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/compiled.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/expansion.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/source.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/expand.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/capability.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/database.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/names.rs /hdd/texcreate-projs/texcgen/src/debug/build/terminfo-c12c10472adce34d/out/names.rs
+
+/hdd/texcreate-projs/texcgen/src/debug/deps/terminfo-1cff08e297d3bb9f.d: /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/lib.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/error.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/mod.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/util.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/compiled.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/expansion.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/source.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/expand.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/capability.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/database.rs /home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/names.rs /hdd/texcreate-projs/texcgen/src/debug/build/terminfo-c12c10472adce34d/out/names.rs
+
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/lib.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/error.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/mod.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/util.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/compiled.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/expansion.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/parser/source.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/expand.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/capability.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/database.rs:
+/home/mustafif/.cargo/registry/src/github.com-1ecc6299db9ec823/terminfo-0.7.5/src/names.rs:
+/hdd/texcreate-projs/texcgen/src/debug/build/terminfo-c12c10472adce34d/out/names.rs:
+
+# env-dep:OUT_DIR=/hdd/texcreate-projs/texcgen/src/debug/build/terminfo-c12c10472adce34d/out
