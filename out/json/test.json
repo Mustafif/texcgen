@@ -12,6 +12,7 @@
       "date": "date",
       "title": "title",
       "fontsize": 11,
+      "papersize": "letterpaper",
       "doc_class": "article",
       "maketitle": true
     },
