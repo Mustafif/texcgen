@@ -5,9 +5,9 @@ use std::path::PathBuf;
 use texcgen_macro::run_templates;
 use texcore::template::Template;
 use texcore::Tex;
-use tokio::fs::{copy, create_dir, File, OpenOptions};
+use tokio::fs::{copy, create_dir, File, OpenOptions, read_to_string};
 use tokio::io::{AsyncWriteExt, Error, Result};
-use tokio::try_join;
+use tokio::{spawn, try_join};
 
 // The template builder config
 #[derive(Debug, Clone)]
@@ -120,8 +120,13 @@ pub async fn generate(builder: Builder) -> Result<()> {
     gen_rs.write_all(mod_.as_bytes()).await?;
     // creates the template
     let template = generate_template();
-    // need to consider Builder
+    // build the template
     builder.build(&template).await?;
+    // reset the template.rs
+    println!("Resetting `src/template.rs`...");
+    let s = read_to_string("default/default_template.rs").await?;
+    let mut file = File::create("src/template.rs").await?;
+    file.write_all(s.as_bytes()).await?;
     // format the code
     let _ = tokio::process::Command::new("cargo")
         .arg("fmt")
