@@ -1,0 +1,21 @@
+{
+  "name": "",
+  "description": "",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  },
+  "element_list": {
+    "metadata": {
+      "author": "author",
+      "date": "date",
+      "title": "title",
+      "fontsize": 11,
+      "papersize": "letterpaper",
+      "doc_class": "article",
+      "maketitle": true
+    },
+    "list": []
+  }
+}
