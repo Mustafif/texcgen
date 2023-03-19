@@ -7,7 +7,7 @@ use texcore::template::Template;
 use texcore::Tex;
 use tokio::fs::{copy, create_dir, File, OpenOptions, read_to_string};
 use tokio::io::{AsyncWriteExt, Error, Result};
-use tokio::{spawn, try_join};
+use tokio::try_join;
 
 // The template builder config
 #[derive(Debug, Clone)]
@@ -119,7 +119,7 @@ pub async fn generate(builder: Builder) -> Result<()> {
     let mod_ = format!("pub mod {};\n", name());
     gen_rs.write_all(mod_.as_bytes()).await?;
     // creates the template
-    let template = generate_template();
+    let template = generate_template().await;
     // build the template
     builder.build(&template).await?;
     // reset the template.rs

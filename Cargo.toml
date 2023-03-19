@@ -10,5 +10,5 @@ dirs = "4.0.0"
 structopt = "0.3.26"
 texcgen-macro = {path = "texcgen-macro"}
 tokio = { version = "1.25.0", features = ["full"] }
-texcore = {version = "0.4.10", features = ["full"]}
+texcore = {version = "0.6.0", features = ["full"]}
 tectonic = "0.12.0"

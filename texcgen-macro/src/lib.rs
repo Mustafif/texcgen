@@ -15,7 +15,7 @@ pub fn run_templates(_input: TokenStream) -> TokenStream{
             Item::Mod(m) => {
                 let ident = m.ident;
                 let token = quote!{
-                    #ident::generate_template()
+                    #ident::generate_template().await
                 };
                 tokens.push(token)
             },

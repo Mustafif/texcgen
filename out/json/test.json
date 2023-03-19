@@ -20,8 +20,9 @@
       {
         "value": {
           "value": "A Chapter",
+          "latex": "\\chapter{A Chapter}",
           "type_": "T_Chapter",
-          "level": null,
+          "level": "Document",
           "header_level": null,
           "text_type": null,
           "list_type": null,
@@ -29,13 +30,15 @@
           "elements": null
         },
         "type_": "T_Chapter",
-        "level": "Document"
+        "level": "Document",
+        "latex": "\\chapter{A Chapter}"
       },
       {
         "value": {
           "value": "A Header",
+          "latex": "\\section{A Header}",
           "type_": "T_Header",
-          "level": null,
+          "level": "Document",
           "header_level": 1,
           "text_type": null,
           "list_type": null,
@@ -43,13 +46,15 @@
           "elements": null
         },
         "type_": "T_Header",
-        "level": "Document"
+        "level": "Document",
+        "latex": "\\section{A Header}"
       },
       {
         "value": {
           "value": "A Sub Header",
+          "latex": "\\subsubsection{A Sub Header}",
           "type_": "T_Header",
-          "level": null,
+          "level": "Document",
           "header_level": 2,
           "text_type": null,
           "list_type": null,
@@ -57,7 +62,8 @@
           "elements": null
         },
         "type_": "T_Header",
-        "level": "Document"
+        "level": "Document",
+        "latex": "\\subsubsection{A Sub Header}"
       }
     ]
   }
