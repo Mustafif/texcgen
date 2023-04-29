@@ -506,7 +506,7 @@ dependencies = [
  "dirs",
  "structopt",
  "texcgen-macro",
- "texcore",
+ "texcore 0.7.2",
  "tokio",
 ]
 
@@ -516,7 +516,7 @@ version = "0.1.0"
 dependencies = [
  "quote",
  "syn 1.0.109",
- "texcore",
+ "texcore 0.6.1",
  "tokio",
 ]
 
@@ -530,6 +530,38 @@ dependencies = [
  "serde",
  "serde_json",
  "tokio",
+]
+
+[[package]]
+name = "texcore"
+version = "0.7.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "32911093cbdf3caf73aa59b456e960e80bee91c93f5634f0899bb05cca64a4a8"
+dependencies = [
+ "futures",
+ "serde",
+ "serde_json",
+ "texcore_traits",
+ "tokio",
+]
+
+[[package]]
+name = "texcore_derive"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "44d5d6335a8b08a93bca7a22cf95ffb866bec3bd37ddca6a24da3935152f42d8"
+dependencies = [
+ "quote",
+ "syn 1.0.109",
+]
+
+[[package]]
+name = "texcore_traits"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "6ee92b335bd5072c638166fb7ee3ed75ec5cce63601e4da5ac9b78021a902799"
+dependencies = [
+ "texcore_derive",
 ]
 
 [[package]]
